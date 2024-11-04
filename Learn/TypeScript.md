@@ -16,9 +16,10 @@ TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar 
  - array (number[], string[])
  - tuple, enum, y any (cuando necesitas evitar restricciones de tipos)
  - union types (number | string para variables de múltiples tipos posibles)
-
+ 
+### Ejemplos
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMwMDAyMjcsOTQ1MTA0MjA1LDE4Nj
+eyJoaXN0b3J5IjpbLTE4OTc1OTc5NjEsOTQ1MTA0MjA1LDE4Nj
 E3MjIyNTYsLTIwNTkzMjQ1NTldfQ==
 -->
