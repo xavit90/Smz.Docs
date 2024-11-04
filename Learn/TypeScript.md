@@ -26,7 +26,7 @@ let isStudent: boolean = true;
 
 /* array: para listas de valores de un mismo tipo */
 let scores: number[] = [99, 98, 99];
-let subjects: Array<string> = ["Math", "Bob"];
+let subjects: Array<string> = ["Math", "English", "History"];
 
 /* tuple: para listas de un tamaño y tipos definidos */
 let person: [string, number] = ["Alexis", 98];
@@ -37,7 +37,7 @@ let favoriteColor: Color = Color.Green;
 ```
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTYwMzMzMywtMzg3NzkxOTIwLC0zNT
+eyJoaXN0b3J5IjpbMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNT
 U1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1
 NiwtMjA1OTMyNDU1OV19
 -->
