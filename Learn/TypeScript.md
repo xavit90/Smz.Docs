@@ -10,16 +10,15 @@ Al final, el código TypeScript se convierte en JavaScript, lenguaje que los nav
 
 ## Tipos Estáticos
 
-TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar de qué tipo es cada variable, ayuda a prevenir errores antes de ejecutar el código.
-
-declarar de qué tipo es cada variable, lo cual permite detectar errores más fácilmente.
+TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar de qué tipo es cada variable, ayuda a prevenir errores antes de ejecutar el código. Los tipos básicos incluyen:
 
  - string, number, boolean
->array (number[], string[])
->tuple, enum, y any (cuando necesitas evitar restricciones de tipos)
->union types (number | string para variables de múltiples tipos posibles)
+ - array (number[], string[])
+ - tuple, enum, y any (cuando necesitas evitar restricciones de tipos)
+ - union types (number | string para variables de múltiples tipos posibles)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2ODI5Mzc2LDk0NTEwNDIwNSwxODYxNz
-IyMjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbLTIwMTMwMDAyMjcsOTQ1MTA0MjA1LDE4Nj
+E3MjIyNTYsLTIwNTkzMjQ1NTldfQ==
 -->
