@@ -20,10 +20,12 @@ TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar 
 ### Ejemplos
 
 ```typescript
-let name: string 
+let name: string // Cadenas de texto
+
 ```
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NT
-EwNDIwNSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbNzI0NjQ2NzQzLC0zNTU1NzU4MywtMTc1Nz
+cxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1
+OV19
 -->
