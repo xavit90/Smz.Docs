@@ -21,11 +21,12 @@ TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar 
 
 ```typescript showLineNumbers
 let name: string = "Alexis"
-let year: number = 2024;
+let score: number = 98;
+
 ```
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE5MjU2NiwtMzU1NTc1ODMsLTE3NT
-c3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkzMjQ1
-NTldfQ==
+eyJoaXN0b3J5IjpbNDE0NjA1MTc4LC0zNTU1NzU4MywtMTc1Nz
+cxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1
+OV19
 -->
