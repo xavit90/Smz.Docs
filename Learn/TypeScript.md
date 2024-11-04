@@ -35,9 +35,11 @@ let person: [string, number] = ["Alexis", 98];
 enum Color { Red, Green, Blue }
 let favoriteColor: Color = Color.Green;
 ```
-    
+Las variables de tipo **any** pueden contener cualquier tipo de valor. Este tipo es útil cuando no puedes determinar el tipo exacto de una variable, pero debe usarse con cuidado porque elimina el beneficio del tipado estático.
+```typescript
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNT
-U1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1
-NiwtMjA1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbMTQ0ODkwMTQzMiwxNDM1NzE3NjM4LC0zOD
+c3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIw
+NSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
 -->
