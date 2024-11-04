@@ -8,11 +8,11 @@ La principal característica es su sistema de tipos estáticos, lo que significa
 ## Tipos Básicos y Tipado Estático
 
 TypeScript es un superset de JavaScript que agrega tipos estáticos, lo cual ayuda a prevenir errores antes de ejecutar el código.
->st
-
-
-> Written with [StackEdit](https://stackedit.io/).
+>string, number, boolean
+>array (number[], string[])
+>tuple, enum, y any (cuando necesitas evitar restricciones de tipos)
+>union types (number | string para variables de múltiples tipos posibles)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NDIxOTI2LDE4NjE3MjIyNTYsLTIwNT
+eyJoaXN0b3J5IjpbMTYxNTEzNzc0LDE4NjE3MjIyNTYsLTIwNT
 kzMjQ1NTldfQ==
 -->
