@@ -23,6 +23,10 @@ TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar 
 let name: string = "Alexis"
 let score: number = 98;
 let isStudent: boolean = true;
+
+// array: para listas de valores de un mismo tipo */
+let scores: number[] = [95, 88, 76];
+
 let person: [string, number] = ["Alexis", 98];
 
 enum Color { Red, Green, Blue }
@@ -30,7 +34,7 @@ let favoriteColor: Color = Color.Green;
 ```
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzc5MTkyMCwtMzU1NTc1ODMsLTE3NT
-c3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkzMjQ1
-NTldfQ==
+eyJoaXN0b3J5IjpbLTEzMDM2NjY0NTIsLTM4Nzc5MTkyMCwtMz
+U1NTc1ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIy
+NTYsLTIwNTkzMjQ1NTldfQ==
 -->
