@@ -40,7 +40,6 @@ Las variables de tipo **any** pueden contener cualquier tipo de valor. Este tipo
 let randomValue: any = "Hello";
 randomValue = 10; // Esto es válido
 ```
-
 ## Interfaces
 
 Una **interfaz** define las propiedades que el objeto debe tener y sus tipos, pero no los valores. Esto ayuda a asegurarse de que el objeto siempre tenga la misma estructura en todo el código, lo cual es muy útil para mantener el orden y evitar errores.
@@ -52,11 +51,12 @@ interface User {
     age: number;
 }
 ```
+## Objetos
 
-
+Un **objeto** es una estructura que agrupa datos relacionados y organiza la información en "pares clave-valor".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ1MDI2OTksMTIzMjgyNTUzMSwxNT
-c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
-ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLT
-IwNTkzMjQ1NTldfQ==
+eyJoaXN0b3J5IjpbMTQ2NzU3NzIyNSwxMjMyODI1NTMxLDE1Nz
+QwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4
+MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMj
+A1OTMyNDU1OV19
 -->
