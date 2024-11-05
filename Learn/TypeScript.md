@@ -133,17 +133,18 @@ async getData(): Promise<Data> {
 
 La **inyección de dependencias** es una técnica que permite que un objeto o clase reciba las herramientas o datos que necesita para funcionar (llamadas “dependencias”) desde afuera, en lugar de crearlas él mismo. Esto hace que el código sea más flexible y fácil de probar, porque las dependencias se pueden cambiar o actualizar sin modificar la clase principal.
 
+Imaginemos una clase `Car` que necesita un `Engine` para funcionar. Si `Car` crea su propio `Engine`, siempre dependerá de ese tipo específico de motor, lo cual no es flexible. Con la inyección de dependencias, `Car` recibe el `Engine` desde afuera, permitiendo que se use cualquier tipo de motor (por ejemplo, un motor eléctrico o de gasolina) sin cambiar la clase `Car`.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbLTExMjg1NjUzNjEsLTE0NTY5MjY5MjcsMTA3NTU3OT
-Q0OSw5MDIxODIzNDQsLTIwNDIwMDAyMzgsLTEwNjUzNTQ4NDgs
-LTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4Mz
-U0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5
-OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMT
-U3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3
-NTgzXX0=
+b3J5IjpbLTc1NDQ5Mzg2NywtMTQ1NjkyNjkyNywxMDc1NTc5ND
+Q5LDkwMjE4MjM0NCwtMjA0MjAwMDIzOCwtMTA2NTM1NDg0OCwt
+NjE3NzY5ODQzLC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNT
+Q4NDE3LDE0NjUxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4
+LC00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNT
+c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
+ODNdfQ==
 -->
