@@ -71,12 +71,12 @@ TypeScript permite definir **arreglos de un tipo específico**, lo que significa
 ```typescript
 let subjects: string[] = ["Math", "English", "History"];
 let scores: number[] = [99, 98, 99];
-let nombres: Array<string> = ["Ana", "Juan", "Carlos"];
-
+let nombres: Array<string> = ["Math", "English", "History"];
+let scores: Array<number> = [99, 98, 99];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE1MDU3ODYsLTEzOTk4OTQ1NzUsMT
-IzMjgyNTUzMSwxNTc0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5
-MTkyMCwtMzU1NTc1ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LD
-E4NjE3MjIyNTYsLTIwNTkzMjQ1NTldfQ==
+eyJoaXN0b3J5IjpbLTQzOTc5OTg5NSwtMTM5OTg5NDU3NSwxMj
+MyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3Nzkx
+OTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMT
+g2MTcyMjI1NiwtMjA1OTMyNDU1OV19
 -->
