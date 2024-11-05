@@ -78,11 +78,14 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 
 ### Ejemplo
 ```typescript
-let data: (number | string)[] = [1, "dos", 3, "cuatro"];
+let data: (number | string)[] = [1, "two", 3, "four"];
 ```
+
+## Clases
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEwMDc0NjksLTQzOTc5OTg5NSwtMT
-M5OTg5NDU3NSwxMjMyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcx
-NzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1MC
-w5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMz
+k5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3
+NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLD
+k0NTEwNDIwNSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
 -->
