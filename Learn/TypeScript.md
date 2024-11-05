@@ -105,30 +105,36 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 ```typescript
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
-## Métodos Asíncronos
+## Métodos Asíncronos & Promesas
 
 Un **método asíncrono** es una función especial que permite realizar tareas que **toman tiempo** sin detener el resto del programa. Esto es útil para cosas como esperar una respuesta de un servidor, leer archivos, o hacer cualquier cosa que no ocurra de inmediato.
+
+Una **promesa** es un objeto que representa el resultado eventual de una **operación asíncrona**. Este resultado puede ser exitoso (cumplido) o fallido (rechazado). Las promesas se usan para manejar tareas que toman tiempo, como llamadas a APIs, sin bloquear el flujo del programa.
 
 #### Ejemplo
 ```typescript
 async getData(): Promise<Data> {
-	let data = await axios.get<Data>("https://api.example.com/datos");
-    console.log(data);
+	let response = await axios.get<Data>("https://api.example.com/data");
+    console.log(response.data);
     }
 ```
 
-## Promesas
-
-Una **promesa** es un objeto que representa el resultado eventual de una **operación asíncrona**. Este resultado puede ser exitoso (cumplido) o fallido (rechazado). Las promesas se usan para manejar tareas que toman tiempo, como llamadas a APIs, sin bloquear el flujo del programa.
-
 ## Desestructuración
+
+#### Ejemplo
+```typescript
+async getData(): Promise<Data> {
+	let { data } = await axios.get<Data>("https://api.example.com/data");
+    console.log(data);
+    }
+```
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDIwMDAyMzgsLTEwNjUzNTQ4NDgsLT
-YxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0
-ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OC
-wtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMTU3
-NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NT
-gzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIyMjU2LC0y
-MDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbLTIwNDU5MTg3NzgsLTIwNDIwMDAyMzgsLT
+EwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3
+MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOT
+EsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEy
+MzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OT
+E5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwx
+ODYxNzIyMjU2XX0=
 -->
