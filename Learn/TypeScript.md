@@ -1,4 +1,5 @@
 # TypeScript
+> Nota: La siguiente documentación es solo un 
 
 ## Introducción
 
@@ -75,7 +76,6 @@ class Person {
 // Creando una instancia de la clase persona
 let person1 = new Person("Samm", 30);
 ```
-
 ## Objetos
 
 Un **objeto** es una estructura que agrupa datos relacionados y organiza la información en "pares clave-valor".
@@ -131,11 +131,11 @@ async getData(): Promise<Data> {
 ```
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNDU1NDAsLTIwNDIwMDAyMzgsLTEwNj
-UzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQy
-NywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOTEsMT
-M0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4
-MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5Mj
-AsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYx
-NzIyMjU2XX0=
+eyJoaXN0b3J5IjpbLTExNDQzMjMyODMsLTIwNDIwMDAyMzgsLT
+EwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3
+MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOT
+EsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEy
+MzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OT
+E5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwx
+ODYxNzIyMjU2XX0=
 -->
