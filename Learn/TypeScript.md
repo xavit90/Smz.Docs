@@ -118,10 +118,12 @@ async getMoves(): Promise<Move[]> {
 ```
 
 ## Promesas
+
+una promesa es un objeto que representa el resultado eventual de una operación asíncrona. Este resultado puede ser exitoso (cumplido) o fallido (rechazado). Las promesas se usan para manejar tareas que toman tiempo, como llamadas a APIs, sin bloquear el flujo del programa.
 ## Desestructuración
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDU0MTUxMywtMTA2NTM1NDg0OCwtNj
+eyJoaXN0b3J5IjpbMTY4MDQ3MjUwOSwtMTA2NTM1NDg0OCwtNj
 E3NzY5ODQzLC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNTQ4
 NDE3LDE0NjUxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC
 00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNTc0
