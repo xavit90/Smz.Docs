@@ -105,15 +105,16 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 ```typescript
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
-
-## Promise
+## Métodos Asíncronos
+## Promesas
 ## Desestructuración
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5OD
-Q3MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAz
-OTEsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LD
-EyMzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3
-OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNS
-wxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbLTEwNjUzNTQ4NDgsLTYxNzc2OTg0MywtND
+I5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3
+ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC
+0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1
+NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3Mz
+UwLDk0NTEwNDIwNSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
+
 -->
