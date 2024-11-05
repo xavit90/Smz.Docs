@@ -118,8 +118,9 @@ async getData(): Promise<Data> {
     console.log(response.data);
     }
 ```
-
 ## Desestructuración
+
+La **desestructuración** es una forma fácil y rápida de **extraer valores** de objetos o arreglos y asignarlos a variables. En lugar de acceder a cada propiedad o elemento uno por uno, puedes sacar varios valores de una sola vez. Es como abrir una caja y sacar lo que necesitas directamente, en lugar de tomar cada cosa por separado.
 
 #### Ejemplo
 ```typescript
@@ -130,11 +131,11 @@ async getData(): Promise<Data> {
 ```
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU5MTg3NzgsLTIwNDIwMDAyMzgsLT
-EwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3
-MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOT
-EsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEy
-MzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OT
-E5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwx
-ODYxNzIyMjU2XX0=
+eyJoaXN0b3J5IjpbMzYwNDU1NDAsLTIwNDIwMDAyMzgsLTEwNj
+UzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQy
+NywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOTEsMT
+M0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4
+MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5Mj
+AsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYx
+NzIyMjU2XX0=
 -->
