@@ -41,9 +41,12 @@ let randomValue: any = "Hello";
 randomValue = 10; // Esto es válido
 ```
 
+## Objetos e Interfaces
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zOD
-c3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIw
-NSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbODk4OTgwNzI1LDE1NzQwMTQyNzAsMTQzNT
+cxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1
+MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1OV19
 -->
