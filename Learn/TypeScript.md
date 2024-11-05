@@ -41,8 +41,10 @@ let randomValue: any = "Hello";
 randomValue = 10; // Esto es válido
 ```
 
-## Objetos e Interfaces
+## Interfaces
 
+
+Una interfaz es un "molde" que describe cómo debería verse un objeto. En otras palabras, define las propiedades que el objeto debe tener y sus tipos, pero no los valores. Esto ayuda a asegurarse de que el objeto siempre tenga la misma estructura en todo el código, lo cual es muy útil para mantener el orden y evitar errores.
 
 ### Ejemplo
 ```typescript
@@ -54,8 +56,8 @@ interface User {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjgyNTUzMSwxNTc0MDE0MjcwLDE0Mz
-U3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1ODMsLTE3NTc3MTcz
-NTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkzMjQ1NTldfQ
-==
+eyJoaXN0b3J5IjpbOTA0NDUzNzI4LDEyMzI4MjU1MzEsMTU3ND
+AxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgz
+LC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIyMjU2LC0yMD
+U5MzI0NTU5XX0=
 -->
