@@ -76,7 +76,7 @@ let scores: Array<number> = [99, 98, 99];
 ```
 Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múltiples (o "union types"). Por ejemplo, un arreglo que contenga tanto números como cadenas de texto:
 
-### Ejemplo
+#### Ejemplo
 ```typescript
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
@@ -84,8 +84,9 @@ let data: (number | string)[] = [1, "two", 3, "four"];
 ## Clases
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMz
-k5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3
-NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLD
-k0NTEwNDIwNSwxODYxNzIyMjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC00Mz
+k3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNTc0MDE0
+MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1ODMsLT
+E3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkz
+MjQ1NTldfQ==
 -->
