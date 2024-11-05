@@ -63,10 +63,10 @@ let student = {
 };
 ```
 ## Tipos de arreglos
-
+Un **arreglo** es una lista de elementos ordenados que pueden ser de cualquier tipo: *números*, *texto*, *objetos*, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNT
-c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
-ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLT
-IwNTkzMjQ1NTldfQ==
+eyJoaXN0b3J5IjpbMTgwOTI0NTkyMSwtMTM5OTg5NDU3NSwxMj
+MyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3Nzkx
+OTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMT
+g2MTcyMjI1NiwtMjA1OTMyNDU1OV19
 -->
