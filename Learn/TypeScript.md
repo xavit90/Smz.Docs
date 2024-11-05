@@ -52,6 +52,7 @@ interface Student {
 }
 ```
 ## Clases
+
 Una **clase** es un plano para crear objetos con propiedades y métodos.
 Las clases ayudan a organizar el código, especialmente cuando se trabaja con muchos objetos que tienen propiedades y comportamientos similares. Además, permiten reutilizar el mismo "molde" para crear múltiples objetos sin tener que repetir código.
 
@@ -105,9 +106,10 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM1NDg0MTcsMTQ2NTEwNzgzOSwtMj
-Q4ODYwMzkxLDEzNDAwMzg2OTgsLTQzOTc5OTg5NSwtMTM5OTg5
-NDU3NSwxMjMyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOC
-wtMzg3NzkxOTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUx
-MDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxND
+Y1MTA3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OCwtNDM5Nzk5
+ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MC
+wxNDM1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgzLC0xNzU3
+NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIyMjU2LC0yMDU5MzI0NT
+U5XX0=
 -->
