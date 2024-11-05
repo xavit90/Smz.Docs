@@ -52,7 +52,7 @@ interface Student {
 }
 ```
 ## Clases
-
+Una clase es un plano para crear objetos con propiedades y métodos.
 Las clases ayudan a organizar el código, especialmente cuando se trabaja con muchos objetos que tienen propiedades y comportamientos similares. Además, permiten reutilizar el mismo "molde" para crear múltiples objetos sin tener que repetir código.
 
 #### Ejemplo
@@ -71,9 +71,8 @@ class Person {
     }
 }
 
-// Create a new Person instance
-let person1 = new Person("Alice", 30);
-console.log(person1.greet()); // Output: "Hello, my name is Alice and I am 30 years old."
+// Creando una instancia de la clase persona
+let person1 = new Person("Samm", 30);
 ```
 
 ## Objetos
@@ -106,9 +105,9 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0OTk5NDA3LC0yNDg4NjAzOTEsMTM0MD
-AzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1
-MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLT
-M1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIy
-MjU2LC0yMDU5MzI0NTU5XX0=
+eyJoaXN0b3J5IjpbMTQ2NTEwNzgzOSwtMjQ4ODYwMzkxLDEzND
+AwMzg2OTgsLTQzOTc5OTg5NSwtMTM5OTg5NDU3NSwxMjMyODI1
+NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC
+0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcy
+MjI1NiwtMjA1OTMyNDU1OV19
 -->
