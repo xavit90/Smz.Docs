@@ -53,7 +53,28 @@ interface Student {
 ```
 ## Clases
 
-Las clases ayudan a organizar el código, especialmente cuando se trabaja con muchos objetos que tienen propiedades y comportamientos similares. Además, te permiten reutilizar el mismo "molde" para crear múltiples objetos sin tener que repetir código.
+Las clases ayudan a organizar el código, especialmente cuando se trabaja con muchos objetos que tienen propiedades y comportamientos similares. Además, permiten reutilizar el mismo "molde" para crear múltiples objetos sin tener que repetir código.
+
+#### Ejemplo
+```typescript
+class Person {
+    name: string;
+    age: number;
+    
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet(): string {
+        return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+    }
+}
+
+// Create a new Person instance
+let person1 = new Person("Alice", 30);
+console.log(person1.greet()); // Output: "Hello, my name is Alice and I am 30 years old."
+```
 
 ## Objetos
 
@@ -85,9 +106,9 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgxMDE5ODksLTI0ODg2MDM5MSwxMz
-QwMDM4Njk4LC00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgy
-NTUzMSwxNTc0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMC
-wtMzU1NTc1ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3
-MjIyNTYsLTIwNTkzMjQ1NTldfQ==
+eyJoaXN0b3J5IjpbMzI0OTk5NDA3LC0yNDg4NjAzOTEsMTM0MD
+AzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1
+MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLT
+M1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIy
+MjU2LC0yMDU5MzI0NTU5XX0=
 -->
