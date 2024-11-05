@@ -109,11 +109,19 @@ let data: (number | string)[] = [1, "two", 3, "four"];
 
 Un **método asíncrono** es una función especial que permite realizar tareas que **toman tiempo** sin detener el resto del programa. Esto es útil para cosas como esperar una respuesta de un servidor, leer archivos, o hacer cualquier cosa que no ocurra de inmediato.
 
+#### Ejemplo
+```typescript
+async getMoves(): Promise<Move[]> {
+        const { data } = await axios.get<PokeapiResponse>(`https://pokeapi.co/api/v2/pokemon/${this.id}`);
+        return data.moves;
+    }
+```
+
 ## Promesas
 ## Desestructuración
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjg1NjcyMCwtMTA2NTM1NDg0OCwtNj
+eyJoaXN0b3J5IjpbLTI4NDU0MTUxMywtMTA2NTM1NDg0OCwtNj
 E3NzY5ODQzLC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNTQ4
 NDE3LDE0NjUxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC
 00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNTc0
