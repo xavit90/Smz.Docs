@@ -51,6 +51,7 @@ interface Student {
     age: number;
 }
 ```
+#
 ## Objetos
 
 Un **objeto** es una estructura que agrupa datos relacionados y organiza la información en "pares clave-valor".
@@ -80,13 +81,10 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 ```typescript
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
-
-## Clases
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC00Mz
-k3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNTc0MDE0
-MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1ODMsLT
-E3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkz
-MjQ1NTldfQ==
+eyJoaXN0b3J5IjpbLTEyOTUwNTUyOTUsLTI0ODg2MDM5MSwxMz
+QwMDM4Njk4LC00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgy
+NTUzMSwxNTc0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMC
+wtMzU1NTc1ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3
+MjIyNTYsLTIwNTkzMjQ1NTldfQ==
 -->
