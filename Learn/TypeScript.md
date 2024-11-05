@@ -64,8 +64,10 @@ let student = {
 ```
 ## Tipos de arreglos
 Un **arreglo** es una lista de elementos ordenados que pueden ser de cualquier tipo: *números*, *texto*, *objetos*, etc.
+
+TypeScript permite definir **arreglos de un tipo específico**, lo que significa que se puede decidir de antemano qué tipo de datos va a tener cada elemento del arreglo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTI0NTkyMSwtMTM5OTg5NDU3NSwxMj
+eyJoaXN0b3J5IjpbMTE5ODI5ODU2NywtMTM5OTg5NDU3NSwxMj
 MyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3Nzkx
 OTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMT
 g2MTcyMjI1NiwtMjA1OTMyNDU1OV19
