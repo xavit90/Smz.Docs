@@ -111,9 +111,10 @@ Un **método asíncrono** es una función especial que permite realizar tareas q
 
 #### Ejemplo
 ```typescript
-async getMoves(): Promise<Move[]> {
-        const { data } = await axios.get<PokeapiResponse>(`https://pokeapi.co/api/v2/pokemon/${this.id}`);
-        return data.moves;
+async getData(): Promise<Data> {
+	let response = await axios.get<Data>("https://api.example.com/datos");
+    let datos = await respuesta.json();
+    console.log(datos);
     }
 ```
 
@@ -124,7 +125,7 @@ Una **promesa** es un objeto que representa el resultado eventual de una **opera
 ## Desestructuración
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDYxNDI2MSwtMTA2NTM1NDg0OCwtNj
+eyJoaXN0b3J5IjpbMjA0MDg0NTE4MywtMTA2NTM1NDg0OCwtNj
 E3NzY5ODQzLC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNTQ4
 NDE3LDE0NjUxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC
 00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNTc0
