@@ -1,5 +1,5 @@
 # TypeScript
-> Nota: La siguiente documentación es solo un 
+> Nota: La siguiente documentación incluye algunos conceptos utilizados en TypeScript, para más información visite el sitio oficial o 
 
 ## Introducción
 
@@ -131,11 +131,11 @@ async getData(): Promise<Data> {
 ```
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQzMjMyODMsLTIwNDIwMDAyMzgsLT
-EwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3
-MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOT
-EsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEy
-MzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OT
-E5MjAsLTM1NTU3NTgzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwx
-ODYxNzIyMjU2XX0=
+eyJoaXN0b3J5IjpbOTAyMTgyMzQ0LC0yMDQyMDAwMjM4LC0xMD
+Y1MzU0ODQ4LC02MTc3Njk4NDMsLTQyOTQ4MDY4LC00OTg0NzM0
+MjcsLTE1ODM1NDg0MTcsMTQ2NTEwNzgzOSwtMjQ4ODYwMzkxLD
+EzNDAwMzg2OTgsLTQzOTc5OTg5NSwtMTM5OTg5NDU3NSwxMjMy
+ODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOT
+IwLC0zNTU1NzU4MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2
+MTcyMjI1Nl19
 -->
