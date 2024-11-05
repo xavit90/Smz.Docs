@@ -58,14 +58,15 @@ Un **objeto** es una estructura que agrupa datos relacionados y organiza la info
 #### Ejemplo
 ```typescript
 let student = {
-    name: "Alex",
+    name: "Samm",
     age: 22
 };
-
 ```
+## Tipos de arreglos
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzYwMTYwMiwxMjMyODI1NTMxLDE1Nz
-QwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4
-MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMj
-A1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNT
+c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
+ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLT
+IwNTkzMjQ1NTldfQ==
 -->
