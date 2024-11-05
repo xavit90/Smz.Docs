@@ -120,7 +120,7 @@ async getData(): Promise<Data> {
 ```
 ## Desestructuración
 
-La **desestructuración** es una forma fácil y rápida de **extraer valores** de objetos o arreglos y asignarlos a variables. En lugar de acceder a cada propiedad o elemento uno por uno, puedes sacar varios valores de una sola vez. Es como abrir una caja y sacar lo que necesitas directamente, en lugar de tomar cada cosa por separado.
+La **desestructuración** es una forma fácil y rápida de **extraer valores** de objetos usando `{}` o arreglos y asignarlos a variables. En lugar de acceder a cada propiedad o elemento uno por uno, puedes sacar varios valores de una sola vez. Es como abrir una caja y sacar lo que necesitas directamente, en lugar de tomar cada cosa por separado.
 
 #### Ejemplo
 ```typescript
@@ -135,11 +135,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5MDIxODIzND
-QsLTIwNDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNzc2OTg0Mywt
-NDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxNDY1MT
-A3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OCwtNDM5Nzk5ODk1
-LC0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MCwxND
-M1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NTgzLC0xNzU3NzE3
-MzUwXX0=
+b3J5IjpbMTc0MDE0MjAwOSwtMTQ1NjkyNjkyNywxMDc1NTc5ND
+Q5LDkwMjE4MjM0NCwtMjA0MjAwMDIzOCwtMTA2NTM1NDg0OCwt
+NjE3NzY5ODQzLC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNT
+Q4NDE3LDE0NjUxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4
+LC00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgyNTUzMSwxNT
+c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
+ODNdfQ==
 -->
