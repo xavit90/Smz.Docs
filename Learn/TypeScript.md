@@ -51,7 +51,10 @@ interface Student {
     age: number;
 }
 ```
-#
+## Clases
+
+Las clases ayudan a organizar el código, especialmente cuando se trabaja con muchos objetos que tienen propiedades y comportamientos similares. Además, te permiten reutilizar el mismo "molde" para crear múltiples objetos sin tener que repetir código.
+
 ## Objetos
 
 Un **objeto** es una estructura que agrupa datos relacionados y organiza la información en "pares clave-valor".
@@ -82,7 +85,7 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUwNTUyOTUsLTI0ODg2MDM5MSwxMz
+eyJoaXN0b3J5IjpbLTIxMjgxMDE5ODksLTI0ODg2MDM5MSwxMz
 QwMDM4Njk4LC00Mzk3OTk4OTUsLTEzOTk4OTQ1NzUsMTIzMjgy
 NTUzMSwxNTc0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMC
 wtMzU1NTc1ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3
