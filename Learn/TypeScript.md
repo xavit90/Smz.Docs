@@ -44,9 +44,18 @@ randomValue = 10; // Esto es válido
 ## Objetos e Interfaces
 
 
+### Ejemplo
+```typescript
+interface User {
+    name: string;
+    age: number;
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4OTgwNzI1LDE1NzQwMTQyNzAsMTQzNT
-cxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4MywtMTc1NzcxNzM1
-MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbMTIzMjgyNTUzMSwxNTc0MDE0MjcwLDE0Mz
+U3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1ODMsLTE3NTc3MTcz
+NTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLTIwNTkzMjQ1NTldfQ
+==
 -->
