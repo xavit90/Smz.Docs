@@ -20,7 +20,7 @@ TypeScript es un *superset* de JavaScript que agrega tipos estáticos, declarar 
 #### Ejemplos
 
 ```typescript showLineNumbers
-let name: string = "Alexis"
+let name: string = "Samm"
 let average: number = 98;
 let isStudent: boolean = true;
 
@@ -29,7 +29,7 @@ let scores: number[] = [99, 98, 99];
 let subjects: Array<string> = ["Math", "English", "History"];
 
 /* tuple: para listas de un tamaño y tipos definidos */
-let person: [string, number] = ["Alexis", 98];
+let person: [string, number] = ["Samm", 98];
 
 /* enum: para definir un conjunto de valores constantes */
 enum Color { Red, Green, Blue }
@@ -57,16 +57,15 @@ Un **objeto** es una estructura que agrupa datos relacionados y organiza la info
 
 #### Ejemplo
 ```typescript
-let persona = {
-    nombre: "Ana",
-    edad: 30,
-    esEstudiante: true
+let student = {
+    name: "Alex",
+    age: 22
 };
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg1NDQyMjUsMTIzMjgyNTUzMSwxNT
-c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
-ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLT
-IwNTkzMjQ1NTldfQ==
+eyJoaXN0b3J5IjpbMTYwMzYwMTYwMiwxMjMyODI1NTMxLDE1Nz
+QwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4
+MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMj
+A1OTMyNDU1OV19
 -->
