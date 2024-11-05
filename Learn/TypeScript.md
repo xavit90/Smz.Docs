@@ -106,15 +106,18 @@ Si quieres que un arreglo pueda contener más de un tipo, puedes usar tipos múl
 let data: (number | string)[] = [1, "two", 3, "four"];
 ```
 ## Métodos Asíncronos
+
+Un **método asíncrono** es una función especial que permite realizar tareas que toman tiempo sin detener el resto del programa. Esto es útil para cosas como esperar una respuesta de un servidor, leer archivos, o hacer cualquier cosa que no ocurra de inmediato.
+
 ## Promesas
 ## Desestructuración
 ## Inyección de Dependencias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMDEyOTYxLC0xMDY1MzU0ODQ4LC02MT
-c3Njk4NDMsLTQyOTQ4MDY4LC00OTg0NzM0MjcsLTE1ODM1NDg0
-MTcsMTQ2NTEwNzgzOSwtMjQ4ODYwMzkxLDEzNDAwMzg2OTgsLT
-QzOTc5OTg5NSwtMTM5OTg5NDU3NSwxMjMyODI1NTMxLDE1NzQw
-MTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4My
-wtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMjA1
-OTMyNDU1OV19
+eyJoaXN0b3J5IjpbLTIwNzYwMzI0MzIsLTEwNjUzNTQ4NDgsLT
+YxNzc2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0
+ODQxNywxNDY1MTA3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OC
+wtNDM5Nzk5ODk1LC0xMzk5ODk0NTc1LDEyMzI4MjU1MzEsMTU3
+NDAxNDI3MCwxNDM1NzE3NjM4LC0zODc3OTE5MjAsLTM1NTU3NT
+gzLC0xNzU3NzE3MzUwLDk0NTEwNDIwNSwxODYxNzIyMjU2LC0y
+MDU5MzI0NTU5XX0=
 -->
