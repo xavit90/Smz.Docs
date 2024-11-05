@@ -46,7 +46,7 @@ Una **interfaz** define las propiedades que el objeto debe tener y sus tipos, pe
 
 #### Ejemplo
 ```typescript
-interface User {
+interface Student {
     name: string;
     age: number;
 }
@@ -65,8 +65,8 @@ let persona = {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjQ4NTkyNywxMjMyODI1NTMxLDE1Nz
-QwMTQyNzAsMTQzNTcxNzYzOCwtMzg3NzkxOTIwLC0zNTU1NzU4
-MywtMTc1NzcxNzM1MCw5NDUxMDQyMDUsMTg2MTcyMjI1NiwtMj
-A1OTMyNDU1OV19
+eyJoaXN0b3J5IjpbLTIxMTg1NDQyMjUsMTIzMjgyNTUzMSwxNT
+c0MDE0MjcwLDE0MzU3MTc2MzgsLTM4Nzc5MTkyMCwtMzU1NTc1
+ODMsLTE3NTc3MTczNTAsOTQ1MTA0MjA1LDE4NjE3MjIyNTYsLT
+IwNTkzMjQ1NTldfQ==
 -->
