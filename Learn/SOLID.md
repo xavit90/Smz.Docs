@@ -62,7 +62,7 @@ class Circle extends Rectangle {
 }
 ```
 
-# 3. L - Liskov Substitution Principle (Principio de Sustitución de Liskov)
+## 3. L - Liskov Substitution Principle (Principio de Sustitución de Liskov)
 
 Las subclases deben poder **sustituir** a sus clases base sin que el programa falle. En otras palabras, si una función espera una clase base, debería poder trabajar también con cualquier subclase sin comportarse de manera inesperada.
 
@@ -94,6 +94,13 @@ makeBirdFly(penguin); // Error: Penguins can't fly
 ```
 
 ## 4. I - Interface Segregation Principle (Principio de Segregación de Interfaces)
+
+Las clases no deben estar forzadas a implementar interfaces que no usan. Es mejor tener varias interfaces pequeñas y específicas en lugar de una interfaz grande y general.
+
+De esta forma, `Dog` solo implementa lo que realmente necesita (`Eater`), mientras que `Bird` puede implementar ambas (`Eater` y `Flyer`).
+
+#### Ejemplo
+```t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMDgxNzA4XX0=
+eyJoaXN0b3J5IjpbMTQ1NDc5NDY3MF19
 -->
