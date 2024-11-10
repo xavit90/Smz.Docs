@@ -92,6 +92,8 @@ makeBirdFly(sparrow); // OK
 const penguin = new Penguin();
 makeBirdFly(penguin); // Error: Penguins can't fly
 ```
+
+## 4. I - Interface Segregation Principle (Principio de Segregación de Interfaces)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NjE2OTYyXX0=
+eyJoaXN0b3J5IjpbOTMxMDgxNzA4XX0=
 -->
