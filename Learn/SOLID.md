@@ -35,7 +35,32 @@ class UserNotifier {
 }
 ```
 
-## 
+## 2. O - Open/Closed Principle (Principio de Abierto/Cerrado)
+
+Una clase debe estar **abierta para ser extendida, pero cerrada para ser modificada**. Esto significa que deberías poder añadir nuevas funcionalidades sin cambiar el código existente, evitando romper el código anterior.
+
+En este caso, `Rectangle` puede ser extendido por `Circle` para añadir una nueva forma sin modificar el código existente en `Rectangle`.
+
+#### Ejemplo
+```typescript
+// Clase original
+class Rectangle {
+    constructor(public width: number, public height: number) {}
+    area(): number {
+        return this.width * this.height;
+    }
+}
+
+// Usando herencia para añadir nuevas formas sin cambiar Rectangle
+class Circle extends Rectangle {
+    constructor(public radius: number) {
+        super(0, 0); // Pasamos 0 para ancho y alto porque no se usan aquí
+    }
+    area(): number {
+        return Math.PI * this.radius * this.radius;
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1OTcxNTFdfQ==
+eyJoaXN0b3J5IjpbODk4MDgwMDI4XX0=
 -->
