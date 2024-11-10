@@ -17,11 +17,25 @@ Cada clase o módulo debe tener una sola responsabilidad. Esto significa que deb
 
 Aquí, `UserRepository` solo maneja la lógica de guardar usuarios y `UserNotifier` solo maneja el envío de correos electrónicos. Así, cada clase tiene **una única responsabilidad**.
 
+#### Ejemplo
 ```typescript
+// Clase que viola el principio (hace dos cosas)
+class User {
+    saveUserToDatabase() { /* code to save user */ }
+    sendEmailToUser() { /* code to send email */ }
+}
 
+// Aplicando el principio de responsabilidad única
+class UserRepository {
+    saveUserToDatabase() { /* code to save user */ }
+}
+
+class UserNotifier {
+    sendEmailToUser() { /* code to send email */ }
+}
 ```
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg5ODIxMTRdfQ==
+eyJoaXN0b3J5IjpbODg1OTcxNTFdfQ==
 -->
