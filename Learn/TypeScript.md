@@ -136,7 +136,7 @@ La **inyección de dependencias** es una técnica que permite que un objeto o cl
 Imaginemos una clase `Car` que necesita un `Engine` para funcionar. Si `Car` crea su propio `Engine`, siempre dependerá de ese tipo específico de motor, lo cual no es flexible. Con la inyección de dependencias, `Car` recibe el `Engine` desde afuera, permitiendo que se use cualquier tipo de motor (por ejemplo, un motor eléctrico o de gasolina) sin cambiar la clase `Car`.
 
 #### Ejemplo
-Primero, se crean las dos clases actúan como dependencias.
+Primero, se crean las dos clases que actúan como dependencias.
 ```typescript
 class ElectricEngine {
 	start(): string {
@@ -149,18 +149,19 @@ class GasEngine {
         return "Gas engine started.";
     }
 }
-
 ```
+Cada motor tiene un método *start* que devuelve un mensaje cuando el motor se enciende.
+Posteriorment
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbLTUyNzIxMTA3OCwtMTE5MDEzNTM4LC0xNDU2OTI2OT
-I3LDEwNzU1Nzk0NDksOTAyMTgyMzQ0LC0yMDQyMDAwMjM4LC0x
-MDY1MzU0ODQ4LC02MTc3Njk4NDMsLTQyOTQ4MDY4LC00OTg0Nz
-M0MjcsLTE1ODM1NDg0MTcsMTQ2NTEwNzgzOSwtMjQ4ODYwMzkx
-LDEzNDAwMzg2OTgsLTQzOTc5OTg5NSwtMTM5OTg5NDU3NSwxMj
-MyODI1NTMxLDE1NzQwMTQyNzAsMTQzNTcxNzYzOCwtMzg3Nzkx
-OTIwXX0=
+b3J5IjpbMTYxNDM4NDIzNiwtNTI3MjExMDc4LC0xMTkwMTM1Mz
+gsLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5MDIxODIzNDQsLTIw
+NDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5ND
+gwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5
+LC0yNDg4NjAzOTEsMTM0MDAzODY5OCwtNDM5Nzk5ODk1LC0xMz
+k5ODk0NTc1LDEyMzI4MjU1MzEsMTU3NDAxNDI3MCwxNDM1NzE3
+NjM4XX0=
 -->
