@@ -10,6 +10,8 @@ Estas reglas ayudan a escribir código más limpio y manejable:
  - **I**: Crea interfaces pequeñas y específicas para evitar que las clases implementen cosas que no usan.
  - **D**: Trabaja con interfaces en lugar de dependencias directas para hacer el código más flexible.
 Siguiendo estos principios, el código será más fácil de modificar, entender y reutilizar, facilitando su mantenimiento a largo plazo.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEyNDg5MzVdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTYzNDY3XX0=
 -->
