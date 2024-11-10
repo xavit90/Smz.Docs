@@ -151,13 +151,26 @@ class GasEngine {
 }
 ```
 Cada motor tiene un método *start* que devuelve un mensaje cuando el motor se enciende.
-Posteriormente se crea la clase que se utilizara como dependencia. La clase *Car*, en lugar de crear su propio motor, *Car* recibirá un motor como parámetro cuando se cree un nuevo Car. Esto es la inyección de dependencias.
+Posteriormente se crea la clase que se utilizara como dependencia. La clase *Car*, en lugar de crear su propio motor, *Car* recibirá un motor como parámetro cuando se cree un nuevo *Car*. Esto es la inyección de dependencias.
+```javascript
+class Car {
+    private engine: { start(): string };
+
+    constructor(engine: { start(): string }) {
+        this.engine = engine;
+    }
+    
+    startEngine(): void {
+        console.log(this.engine.start());
+    }
+}
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbLTIxNDMxNzg5NiwtNTI3MjExMDc4LC0xMTkwMTM1Mz
+b3J5IjpbMTk4ODI2NjczOSwtNTI3MjExMDc4LC0xMTkwMTM1Mz
 gsLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5MDIxODIzNDQsLTIw
 NDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5ND
 gwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5
