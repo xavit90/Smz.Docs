@@ -65,7 +65,33 @@ class Circle extends Rectangle {
 # 3. L - Liskov Substitution Principle (Principio de Sustitución de Liskov)
 
 Las subclases deben poder **sustituir** a sus clases base sin que el programa falle. En otras palabras, si una función espera una clase base, debería poder trabajar también con cualquier subclase sin comportarse de manera inesperada.
-``
+
+Aquí, `Penguin` no debería ser una subclase de `Bird` si no puede volar, ya que rompe el principio de Liskov. En este caso, podríamos crear una jerarquía diferente para representar aves que no vuelan.
+
+```typescript
+class Bird {
+    fly(): string {
+        return "Flying!";
+    }
+}
+
+class Sparrow extends Bird {}
+class Penguin extends Bird {
+    fly(): string {
+        throw new Error("Penguins can't fly!");
+    }
+}
+
+function makeBirdFly(bird: Bird) {
+    console.log(bird.fly());
+}
+
+const sparrow = new Sparrow();
+makeBirdFly(sparrow); // OK
+
+const penguin = new Penguin();
+makeBirdFly(penguin); // Error: Penguins can't fly
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg3NjkzOTddfQ==
+eyJoaXN0b3J5IjpbNjI0NjE2OTYyXX0=
 -->
