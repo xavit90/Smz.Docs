@@ -168,14 +168,19 @@ class Car {
 En este caso, *Car* tiene una propiedad *engine*, que es la dependencia.
 Por último se pueden crear instancias de *Car* con diferentes tipos de motores.
 ```javascript
+let electricCar = new Car(new ElectricEngine());
+let gasCar = new Car(new GasEngine());
 
+electricCar.startEngine();
+gasCar.startEngine();
 ```
+## Sustitución de 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbLTE4NzgxNDAwNDUsMTY1NTY5NzA3MCwtNTI3MjExMD
+b3J5IjpbLTIxMTQ3ODEwMzgsMTY1NTY5NzA3MCwtNTI3MjExMD
 c4LC0xMTkwMTM1MzgsLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5
 MDIxODIzNDQsLTIwNDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNz
 c2OTg0MywtNDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQx
