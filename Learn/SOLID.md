@@ -100,7 +100,39 @@ Las clases no deben estar forzadas a implementar interfaces que no usan. Es mejo
 De esta forma, `Dog` solo implementa lo que realmente necesita (`Eater`), mientras que `Bird` puede implementar ambas (`Eater` y `Flyer`).
 
 #### Ejemplo
-```t
+```typescript
+// Interfaz grande que viola el principio
+interface Animal {
+    eat(): void;
+    fly(): void;
+}
+
+// Separando interfaces
+interface Eater {
+    eat(): void;
+}
+
+interface Flyer {
+    fly(): void;
+}
+
+// Aplicando el principio
+class Dog implements Eater {
+    eat(): void { /* code to eat */ }
+}
+
+class Bird implements Eater, Flyer {
+    eat(): void { /* code to eat */ }
+    fly(): void { /* code to fly */ }
+}
+```
+
+## 5. **D - Dependency Inversion Principle (Principio de Inversión de Dependencias)**
+
+Las clases deben depender de **abstracciones (interfaces)** y no de implementaciones concretas. Esto significa que en lugar de crear dependencias directas, es mejor trabajar con interfaces para que el código sea más flexible.
+
+Ahora, `Switch` puede trabajar con cualquier dispositivo que implemente la interfaz `Switchable`, no solo con `LightBulb`. Esto hace que el código sea más flexible y escalable.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDc5NDY3MF19
+eyJoaXN0b3J5IjpbLTE5Nzc5Mzg4OTVdfQ==
 -->
