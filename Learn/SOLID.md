@@ -133,6 +133,39 @@ Las clases deben depender de **abstracciones (interfaces)** y no de implementaci
 
 Ahora, `Switch` puede trabajar con cualquier dispositivo que implemente la interfaz `Switchable`, no solo con `LightBulb`. Esto hace que el código sea más flexible y escalable.
 
+```typescript
+// Sin principio de inversión de dependencias
+class LightBulb {
+    turnOn() { /* code to turn on light bulb */ }
+}
+
+class Switch {
+    private bulb: LightBulb = new LightBulb();
+    toggle() {
+        this.bulb.turnOn();
+    }
+}
+
+// Con principio de inversión de dependencias
+interface Switchable {
+    turnOn(): void;
+}
+
+class LightBulb implements Switchable {
+    turnOn() { /* code to turn on light bulb */ }
+}
+
+class Fan implements Switchable {
+    turnOn() { /* code to turn on fan */ }
+}
+
+class Switch {
+    constructor(private device: Switchable) {}
+    toggle() {
+        this.device.turnOn();
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc5Mzg4OTVdfQ==
+eyJoaXN0b3J5IjpbMzAzODY4MDg2XX0=
 -->
