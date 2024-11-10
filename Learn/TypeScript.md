@@ -165,12 +165,13 @@ class Car {
     }
 }
 ```
+En este caso, *Car* tiene una propiedad *engine*, que es la dependencia.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbMTk4ODI2NjczOSwtNTI3MjExMDc4LC0xMTkwMTM1Mz
+b3J5IjpbMTY1NTY5NzA3MCwtNTI3MjExMDc4LC0xMTkwMTM1Mz
 gsLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5MDIxODIzNDQsLTIw
 NDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNzc2OTg0MywtNDI5ND
 gwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxNDY1MTA3ODM5
