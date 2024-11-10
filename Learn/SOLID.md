@@ -13,6 +13,15 @@ Siguiendo estos principios, el código será más fácil de modificar, entender 
 
 ## 1. S - Single Responsibility Principle (Principio de Responsabilidad Única)
 
+Cada clase o módulo debe tener una sola responsabilidad. Esto significa que debe hacer solo una cosa y hacerlo bien. Si tienes una clase que hace varias cosas, será difícil de mantener y entender.
+
+Aquí, `UserRepository` solo maneja la lógica de guardar usuarios y `UserNotifier` solo maneja el envío de correos electrónicos. Así, cada clase tiene **una única responsabilidad**.
+
+```typescript
+
+```
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NjYzNzE4XX0=
+eyJoaXN0b3J5IjpbLTE3OTg5ODIxMTRdfQ==
 -->
