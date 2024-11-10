@@ -61,6 +61,11 @@ class Circle extends Rectangle {
     }
 }
 ```
+
+# 3. L - Liskov Substitution Principle (Principio de Sustitución de Liskov)
+
+Las subclases deben poder **sustituir** a sus clases base sin que el programa falle. En otras palabras, si una función espera una clase base, debería poder trabajar también con cualquier subclase sin comportarse de manera inesperada.
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MDgwMDI4XX0=
+eyJoaXN0b3J5IjpbLTEyODg3NjkzOTddfQ==
 -->
