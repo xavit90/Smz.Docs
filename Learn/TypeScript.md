@@ -176,16 +176,69 @@ gasCar.startEngine();
 ```
 ## Decoradores
 
+Los **decoradores** son una forma de agregar comportamiento adicional a clases, métodos, propiedades, o parámetros sin modificar directamente el código original. Puedes pensar en ellos como "adornos" que añaden funcionalidades extra. Los decoradores permiten "envolver" algo en código adicional para realizar tareas como registro de datos (logging), autenticación, o validación sin alterar la lógica central.
+
+### Ejemplo sencillo de decorador
+
+En TypeScript, para crear un decorador básico, usamos `@` seguido del nombre del decorador justo antes de la clase o método que queremos modificar.
+
+#### Ejemplo: Decorador de clase
+
+Este decorador agrega un mensaje cuando se crea una instancia de la clase.
+
+```typescript
+function logClass(constructor: Function) {
+  console.log(`Class ${constructor.name} has been created.`);
+}
+
+@logClass
+class User {
+  constructor(public name: string) {}
+}
+
+const user = new User("Alice");
+// Output: "Class User has been created."
+```
+
+Aquí, el decorador `@logClass` envuelve a la clase `User` y registra un mensaje cuando se crea una instancia.
+
+#### Ejemplo: Decorador de método
+
+Este decorador registra cuándo se llama a un método.
+
+```typescript
+function logMethod(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+  const originalMethod = descriptor.value;
+
+  descriptor.value = function (...args: any[]) {
+    console.log(`Calling ${propertyKey} with arguments: ${args}`);
+    return originalMethod.apply(this, args);
+  };
+}
+
+class Calculator {
+  @logMethod
+  add(a: number, b: number) {
+    return a + b;
+  }
+}
+
+const calculator = new Calculator();
+calculator.add(2, 3);
+// Output: "Calling add with arguments: 2,3"
+```
+
+En este caso, el decorador `@logMethod` añade una funcionalidad para registrar los argumentos cada vez que se llama al método `add`.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbMTg2NTczMjUxMCwtMTg1Nzk1OTI5MCwxNjQ0NzAwMz
-QyLDE2NTU2OTcwNzAsLTUyNzIxMTA3OCwtMTE5MDEzNTM4LC0x
-NDU2OTI2OTI3LDEwNzU1Nzk0NDksOTAyMTgyMzQ0LC0yMDQyMD
-AwMjM4LC0xMDY1MzU0ODQ4LC02MTc3Njk4NDMsLTQyOTQ4MDY4
-LC00OTg0NzM0MjcsLTE1ODM1NDg0MTcsMTQ2NTEwNzgzOSwtMj
-Q4ODYwMzkxLDEzNDAwMzg2OTgsLTQzOTc5OTg5NSwtMTM5OTg5
-NDU3NV19
+b3J5IjpbMjUwNjIyNDI0LDE4NjU3MzI1MTAsLTE4NTc5NTkyOT
+AsMTY0NDcwMDM0MiwxNjU1Njk3MDcwLC01MjcyMTEwNzgsLTEx
+OTAxMzUzOCwtMTQ1NjkyNjkyNywxMDc1NTc5NDQ5LDkwMjE4Mj
+M0NCwtMjA0MjAwMDIzOCwtMTA2NTM1NDg0OCwtNjE3NzY5ODQz
+LC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNTQ4NDE3LDE0Nj
+UxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC00Mzk3OTk4
+OTVdfQ==
 -->
