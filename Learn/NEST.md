@@ -1,6 +1,10 @@
 # Hello, NestJS!
 
-> Nota: La siguiente documentación incluye algunos conceptos utilizados en TypeScript, para más información visite el sitio oficial o documentación adicional.
+> Nota: La siguiente documentación incluye algunos conceptos de **aprendizaje** en NestJs, para más información visite el sitio oficial de **NestJS** o documentación oficial.
+
+## Introducción
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzM5ODEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQwODE0MTkwMiw3MzA5OTgxMTZdfQ==
 -->
