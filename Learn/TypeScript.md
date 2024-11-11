@@ -178,9 +178,7 @@ gasCar.startEngine();
 
 Los **decoradores** son una forma de agregar comportamiento adicional a clases, métodos, propiedades, o parámetros sin modificar directamente el código original. Puedes pensar en ellos como "adornos" que añaden funcionalidades extra. Los decoradores permiten "envolver" algo en código adicional para realizar tareas como registro de datos (logging), autenticación, o validación sin alterar la lógica central.
 
-### Ejemplo sencillo de decorador
-
-En TypeScript, para crear un decorador básico, usamos `@` seguido del nombre del decorador justo antes de la clase o método que queremos modificar.
+Para crear un decorador básico, usamos `@` seguido del nombre del decorador justo antes de la clase o método que queremos modificar.
 
 #### Ejemplo: Decorador de clase
 
@@ -234,11 +232,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFR5cGVTY3JpcHRcbmF1dG
 hvcjogU01vbnRlc1xudGFnczogJ3R5cGVzY3JpcHQsbmVzdCxq
 YXZhc2NyaXB0J1xuc3RhdHVzOiBkcmFmZlxuZGF0ZTogJzIwMj
 QtMTEtMDQnXG5jYXRlZ29yaWVzOiBEZXZlbG9wXG4iLCJoaXN0
-b3J5IjpbMjUwNjIyNDI0LDE4NjU3MzI1MTAsLTE4NTc5NTkyOT
-AsMTY0NDcwMDM0MiwxNjU1Njk3MDcwLC01MjcyMTEwNzgsLTEx
-OTAxMzUzOCwtMTQ1NjkyNjkyNywxMDc1NTc5NDQ5LDkwMjE4Mj
-M0NCwtMjA0MjAwMDIzOCwtMTA2NTM1NDg0OCwtNjE3NzY5ODQz
-LC00Mjk0ODA2OCwtNDk4NDczNDI3LC0xNTgzNTQ4NDE3LDE0Nj
-UxMDc4MzksLTI0ODg2MDM5MSwxMzQwMDM4Njk4LC00Mzk3OTk4
-OTVdfQ==
+b3J5IjpbMTA5MDg2NzI1MiwxODY1NzMyNTEwLC0xODU3OTU5Mj
+kwLDE2NDQ3MDAzNDIsMTY1NTY5NzA3MCwtNTI3MjExMDc4LC0x
+MTkwMTM1MzgsLTE0NTY5MjY5MjcsMTA3NTU3OTQ0OSw5MDIxOD
+IzNDQsLTIwNDIwMDAyMzgsLTEwNjUzNTQ4NDgsLTYxNzc2OTg0
+MywtNDI5NDgwNjgsLTQ5ODQ3MzQyNywtMTU4MzU0ODQxNywxND
+Y1MTA3ODM5LC0yNDg4NjAzOTEsMTM0MDAzODY5OCwtNDM5Nzk5
+ODk1XX0=
 -->
