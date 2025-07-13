@@ -1,0 +1,93 @@
+{
+    "pm": {
+    "general": {
+      "razonSocial": "Empresa SA de CV",
+      "tipoSociedad": "Sociedad Anónima",
+      "lugarConstitucion": "Ciudad de México",
+      "fechaConstitucion": "yyyy-mm-dd",
+      "nacionalidad": "string"
+    },
+    "estatusRegulatorio": {
+      "fatca": true,
+      "pep": false,
+      "tipoRiesgo": "Bajo"
+    },
+    "cuentaBancaria": {
+      "tipoCuenta": "Nombre comercial producto",
+      "numeroCuenta": "1234567890",
+      "clabe": "123456789012345678"
+    },
+    "direccionFiscal": {
+      "calle": "Calle Sur 124",
+      "exterior": "45",
+      "interior": "SN",
+      "codigoPostal": "01120",
+      "colonia": "Acueducto",
+      "municipio": "Alvaro Obregón",
+      "ciudad": "Ciudad de México",
+      "entidadFederativa": "Ciudad de México",
+      "estado": "Ciudad de México"
+    },
+    "documentacion": {
+      "testimonio": "1234567890",
+      "numeroResgistroPublico": "1234567890",
+      "poderesRepresentanteLegal": "1234567890",
+      "rfc": "string+",
+      "taxID": "string+"
+    },
+    "representanteLegal": [{
+      "rfc": "PEPJ900101AAA",
+      "curp": "string+",
+      "tipoRelacion": "Representante Legal",
+      "nombre": "Juan",
+      "paterno": "Pérez",
+      "materno": "Gómez",
+      "numeroSerieFiel": "1234567890123456789012345678901234567890"
+    }],
+    "contactoRepresentanteLegal": [{
+      "telefono": "5555555555",
+      "celular": "5555555555",
+      "lada": "55",
+      "email": "usuario@ion.com.mx"
+    }],
+    "direccionRepresentanteLegal": [{
+      "calle": "Calle Sur 124",
+      "exterior": "45",
+      "interior": "SN",
+      "colonia": "Acueducto",
+      "municipio": "Alvaro Obregón",
+      "ciudad": "Ciudad de México",
+      "entidadFederativa": "Ciudad de México",
+      "estado": "Ciudad de México",
+      "codigoPostal": "01120"
+    }],
+    "documentacionRepresentanteLegal": [{
+      "rfc": "PEPJ900101AAA",
+      "numeroSerieFiel": "1234567890123456789012345678901234567890"
+    }],
+    "perfilTransaccional": {
+      "numeroAportacionesMensuales": "string",
+      "importeAportacionMensual": "string",
+      "numeroRetirosMensuales": "string",
+      "importeRetirosMenstruales": "string"
+    },
+    "pep": {
+      "productoContratado": "string+",
+      "relacionEntidadFinanciera": "string+",
+      "nombreComercial": "string+",
+      "grupoEmpresarial": true,
+      "consorcioAccionistas": [{
+        "nombre": "string+",
+        "paterno": "string+",
+        "materno": "string+"
+      }]
+    },
+    "fatca": {
+      "residenciaFiscal":[{
+        "pais": "string+",
+        "rfc": "string+",
+        "tin": "string+"
+      }]
+    }
+  }
+}
